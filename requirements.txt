@@ -4,12 +4,14 @@ chardet==2.3.0
 Django==1.9.4
 django-contrib-comments==1.6.2
 django-debug-toolbar==1.4
+django-measurement==2.2.3
 ecdsa==0.13
 Fabric==1.10.2
 filebrowser-safe==0.4.3
 future==0.15.2
 grappelli-safe==0.4.2
 html5lib==0.9999999
+measurement==1.8.0
 Mezzanine==4.1.0
 oauthlib==1.0.3
 paramiko==1.16.0
@@ -21,5 +23,6 @@ requests==2.9.1
 requests-oauthlib==0.6.1
 six==1.10.0
 sqlparse==0.1.18
+sympy==0.7.6.1
 tzlocal==1.2.2
 yolk==0.4.3

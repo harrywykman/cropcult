@@ -2,6 +2,10 @@
     font-size: 1.2em;
 }
 
+footer {
+    background-color: #fff;
+}
+
 .title-tagline {
     font-family: 'Roboto', italic;
     font-size: 1.5em;
