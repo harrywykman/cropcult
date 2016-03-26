@@ -101,7 +101,7 @@ ALLOWED_HOSTS = []
 # timezone as the operating system.
 # If running in a Windows environment this must be set to the same as your
 # system time zone.
-TIME_ZONE = 'UTC'
+TIME_ZONE = 'Australia/West'
 
 # If you set this to True, Django will use timezone-aware datetimes.
 USE_TZ = True
@@ -230,6 +230,8 @@ if DJANGO_VERSION < (1, 9):
 ################
 
 INSTALLED_APPS = (
+    "django_measurement",
+    "data_garden",
     "data_garden_theme",
     "debug_toolbar",
     "django.contrib.admin",
