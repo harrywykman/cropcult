@@ -230,10 +230,10 @@ if DJANGO_VERSION < (1, 9):
 ################
 
 INSTALLED_APPS = (
-    "django_measurement",
-    "data_garden",
-    "data_garden_theme",
-    "debug_toolbar",
+#    "django_measurement",
+#    "data_garden",
+#    "data_garden_theme",
+#    "debug_toolbar",
     "django.contrib.admin",
     "django.contrib.auth",
     "django.contrib.contenttypes",
